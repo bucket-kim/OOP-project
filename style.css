@@ -1,1 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
+h1 {
+  padding-bottom: 24px;
+  font-size: 72px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.beatbox {
+  background-color: gray;
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.beat {
+  width: 150px;
+  height: 150px;
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  color: white;
+  border: 6px solid cyan;
+  background-color: rgb(70, 70, 78);
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+}
